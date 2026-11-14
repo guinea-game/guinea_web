@@ -319,6 +319,14 @@ img {
   font-weight: 700;
   font-size: 14px;
 }
+.store-badge--live {
+  background: #f3e6c8;
+  color: var(--line);
+  text-decoration: none;
+}
+.store-badge--live:hover {
+  filter: brightness(1.06);
+}
 .hero__soon {
   margin: 14px 0 0;
   font-weight: 700;
