@@ -61,10 +61,24 @@ export default function Home() {
           </h1>
           <p className="hero__tagline outline-text">건초만 먹던 기니피그, 세상의 모든 맛을 찾아 떠나다!</p>
           <div className="hero__badges">
-            <span className="store-badge">Google Play · 출시 준비 중</span>
-            <a className="store-badge store-badge--live" href="https://apps.apple.com/us/app/%EA%B8%B0%EB%8B%88-%ED%82%A4%EC%9A%B0%EA%B8%B0/id6825424714" target="_blank" rel="noopener noreferrer">App Store에서 받기</a>
+            <a
+              className="store-badge store-badge--live"
+              href="https://play.google.com/store/apps/details?id=com.guinea.adventure&hl=ko"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Google Play · 지금 다운로드
+            </a>
+            <a
+              className="store-badge store-badge--live"
+              href="https://apps.apple.com/us/app/%EA%B8%B0%EB%8B%88-%ED%82%A4%EC%9A%B0%EA%B8%B0/id6825424714"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              App Store에서 받기
+            </a>
           </div>
-          <p className="hero__soon outline-text">곧 만나요!</p>
+          <p className="hero__soon outline-text">두 스토어에서 모두 만나요!</p>
           <nav className="hero__legal" aria-label="약관과 정책">
             <Link href="/privacy-policy/">개인정보처리방침</Link>
             <Link href="/terms-of-service/">이용약관</Link>
@@ -140,9 +154,24 @@ export default function Home() {
         <div className="panel cta__panel">
           <Sprite file="guinea-idle-strip.webp" frames={5} size={110} />
           <div>
-            <h2 className="section-title">App Store에 나왔어요</h2>
-            <p>App Store에서 지금 받을 수 있어요! Google Play에도 곧 찾아갈게요. 궁금한 점은 언제든 메일로 보내 주세요.</p>
-            <a className="game-button" href="https://apps.apple.com/us/app/%EA%B8%B0%EB%8B%88-%ED%82%A4%EC%9A%B0%EA%B8%B0/id6825424714" target="_blank" rel="noopener noreferrer">App Store에서 받기</a>
+            <h2 className="section-title">지금 플레이할 수 있어요!</h2>
+            <p>Google Play와 App Store에서 모두 받을 수 있어요. 궁금한 점은 언제든 메일로 보내 주세요.</p>
+            <a
+              className="game-button"
+              href="https://play.google.com/store/apps/details?id=com.guinea.adventure&hl=ko"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              구글 플레이에서 다운로드
+            </a>
+            <a
+              className="game-button"
+              href="https://apps.apple.com/us/app/%EA%B8%B0%EB%8B%88-%ED%82%A4%EC%9A%B0%EA%B8%B0/id6825424714"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              App Store에서 받기
+            </a>
             <a className="game-button" href="mailto:kimsungil322@gmail.com">문의 메일 보내기</a>
             <p className="cta__legal">
               <Link href="/privacy-policy/">개인정보처리방침</Link> · <Link href="/terms-of-service/">이용약관</Link>

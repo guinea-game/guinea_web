@@ -320,12 +320,13 @@ img {
   font-size: 14px;
 }
 .store-badge--live {
-  background: #f3e6c8;
+  background: var(--gold, #e8b84b);
   color: var(--line);
   text-decoration: none;
+  transition: transform 120ms ease;
 }
 .store-badge--live:hover {
-  filter: brightness(1.06);
+  transform: translateY(-2px);
 }
 .hero__soon {
   margin: 14px 0 0;
